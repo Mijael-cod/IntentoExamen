@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .caj {
+    margin: 0 auto;
+    width: 90%;
+    height: 400px;
+    display: grid;
+    grid-template-areas: "header header1"
+      "section aside";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 10% 90%;
+    background-color: rgb(96, 102, 102);
+  }
+  
+  .caj>.head {
+    grid-area: header;
+    background-color: black;
+    color: white;
+    font-size: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: initial;
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+  
+  .caj>.head1 {
+    grid-area: header1;
+    background-color: gray;
+  }
+  
+  .caj>.container1 {
+    grid-area: section;
+    background-color: rgb(224, 223, 223);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 70px;
+  }
+  
+  .caj>.container2 {
+    grid-area: aside;
+    background-color: white;
+    color: blue;
+    padding-left: 40px;
+  }
+  
+  #img1 {
+    width: 30px;
+  }
+  
+  .caja {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgb(161, 161, 161);
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  
+  .caja1 {
+    width: 200px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgb(161, 161, 161);
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  
+  .boton {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 255);
+    color: white;
+    margin: 0 auto;
+    background-color: blue;
+  
+  }
+  
+  th {
+    border: none;
+    border: 1px solid blue;
+    color: white;
+    background-color: skyblue;
+    text-align: center;
+  }
+  
+  td {
+  
+    border-bottom: 1px solid blue;
+    border: 1px solid blue;
+  
+    text-align: center;
+  }
+  
+  .th {
+    width: 100px;
+    height: 50px;
+  }
+  
+  .th1 {
+    width: 300px;
+  }
+  
+  .th2 {
+    width: 100px;
+  }
+  
+  .icono {
+    color: red;
+  }
+  
+  .icono1 {
+    color: green;
+  }

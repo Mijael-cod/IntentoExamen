@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+  
+    </style>
+</head>
+<body>
+    <div class="caj">
+      <div class="head">
+        <i id="img1" class="fa fa-cog" aria-hidden="true"></i>
+            <h1>POST</h1>
+      </div>
+    <div class="head1"></div>
+    <div class="container1">
+      <input type="text" class="caja" name="" id="titulo" placeholder="Titulo">
+      <textarea name="" id="descripcion" placeholder="Descripcion" cols="30" rows="10" class="caja1"></textarea>
+      <button class="boton" onclick="agregar()">AGREGAR</button>
+    </div>
+    <div class="container2">
+      <h1>Lista de Datos</h1>
+      <hr>
+      <br>
+      <br>
+
+        <table id="table">
+           <thead>
+             <tr>
+              <th class="th">Titulo</th>
+              <th class="th1">Descripcion</th>
+              <th class="th2" colspan="2">Accion</th>
+             </tr>
+           </thead>
+      <tbody id="tbd"></tbody>
+
+        </table>
+    </div>
+    </div>
+    <script src="js/script2.js"></script>
+</body>
+</html>
